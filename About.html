@@ -1,13 +1,16 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>About</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieExplorer - About</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <!-- This is Header / Nevigation Bar of My website  -->
     <header>
-      <nav class="center">
-        <h2>Movie Explorer</h2>
+      <nav class="links center">
+        <h2><a href="index.html">🎥 Movie Explorer</a></h2>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="Catalogue.html">catalogue</a></li>
@@ -16,112 +19,123 @@
         </ul>
       </nav>
     </header>
+    <!-- This is Main section of My Website's About Page -->
+    <main>
+      <div class="center">
+        <h2>About Movie Explorer Portal</h2>
+        <p>The <strong>Movie Explorer Portal</strong> is An Educational Static Web Development Project Crafted Specifically For The B.Tech 1st Year Web Designing & Web Technologies Lab Curriculum.</p>
+        <p>The core goal of this assignment is to teach students how to take a structured HTML document containing real-world movie metadata and apply progressive styling layers using standard CSS.</p>
+      </div>
+      <h2 class="center">Syllabus Progression Roadmap</h2>
+      <ol>
+        <li><strong> Unit 1 — HTML5 Markup : </strong>Structuring semantic web documents, metadata, lists, tables, and form inputs.</li>
+        <li><strong>Unit 2 — CSS Fundamentals: </strong>Applying external style sheets, selectors, color rules, and understanding the Box Model (margins, borders, padding). </li>
+        <li><strong>Unit 3 — CSS3 & Responsive Design : </strong>Creating fluid layouts using Flexbox, CSS Grid, hover transitions, and media query breakpoints. </li>
+        <li><strong> Unit 4 — Responsive Frameworks : </strong>Refactoring custom CSS layouts into framework container grids (Bootstrap 5 / Tailwind CSS). </li>
+      </ol>
+      <hr />
+      <div class="center">
+        <h2>12-Week Lab Practical Timeline</h2>
+        <table cellspacing="15" align="center">
+          <tr>
+            <th>Week No.</th>
+            <th>Topic / Syllabus<br />Module</th>
+            <th>Practical Student Focus</th>
+            <th>Lab Deliverable</th>
+          </tr>
+          <tr>
+            <td>Week 1-2</td>
+            <td>HTML5 Document Structure</td>
+            <td>Building HTML skeletons using semantic tags</td>
+            <td>Unstyled HTML Wireframes</td>
+          </tr>
+          <tr>
+            <td>Week 3</td>
+            <td>HTML Forms & Tables</td>
+            <td>Constructing contact inputs and spec tables</td>
+            <td>Form & Table Pages</td>
+          </tr>
+          <tr>
+            <td>Week 4-5</td>
+            <td>CSS Basics & Box Model</td>
+            <td>Custom typography, margins, padding, borders</td>
+            <td>Styled CSS Static Pages</td>
+          </tr>
+          <tr>
+            <td>Week 6-7</td>
+            <td>CSS3 Layouts & Transitions</td>
+            <td>Flexbox grid layouts, shadows, hover effects</td>
+            <td>Responsive Flexbox Grid</td>
+          </tr>
+          <tr>
+            <td>Week 8</td>
+            <td>CSS3 Media Queries</td>
+            <td>Writing @media query breakpoints for mobile </td>
+            <td>Mobile Responsive Site</td>
+          </tr>
+          <tr>
+            <td>Week 9-10</td>
+            <td>Bootstrap 5 / Tailwind Grid</td>
+            <td>Linking CDN, 12-column grid container setups</td>
+            <td>Framework Shell</td>
+          </tr>
+          <tr>
+            <td>Week 11-12</td>
+            <td>QA, Audit & Final Defense</td>
+            <td>Cross-browser testing, code cleanup, viva presentation</td>
+            <td>Final Project Submission</td>
+          </tr>
+        </table>
+      </div>
+      <hr />
+      <div class="center">
+        <h2>User Feedback & Inquiry Form</h2>
+        <p>Please Fill Out The Form Below To Submit Your Feedback Or Inquiries Regarding The Portal : </p>
+        <form>
+          <label for="fname">Full Name : </label>
+          <input type="text" name="fname" id="fname" placeholder="e.g. Prince"/><br /><br>
+          <label for="email">Email Addres : </label>
+          <input type="text" name="email" id="email" placeholder="e.g. Gohel"/><br /><br>
+          <label for="option">Inquiry Category : </label>
+          <select name="option" id="option">
+            <option value="gen-fed" selected disabled>catagoris</option>
+            <option value="gen-fed">General Feedback</option>
+            <option value="gen-fed">General Feedback</option>
+            <option value="gen-fed">General Feedback</option>
+          </select>
+          <h4>How Would You Rate This Portal Design?</h4>
+          <input type="radio" name="rate" id="5star"/>
+          <label for="5star">5 - Excellent</label><br />
+          <input type="radio" name="rate" id="4star"/>
+          <label for="4star">4 - Good</label><br />
+          <input type="radio" name="rate" id="3star"/>
+          <label for="3star">3 - Average</label><br />
+          <input type="radio" name="rate" id="2star"/>
+          <label for="2star">2 - Below Average</label><br />
+          <input type="radio" name="rate" id="1star"/>
+          <label for="1star">1 - Poor</label><br />
 
-    <div class="center">
-      <h2>About Movie Explorer Portal</h2>
-      <p>The <strong>Movie Explorer Portal</strong> is an educational static web development project crafted specifically for the B.Tech 1st Year Web Designing & Web Technologies Lab curriculum.</p>
-      <p>The core goal of this assignment is to teach students how to take a structured HTML document containing real-world movie metadata and apply progressive styling layers using standard CSS, advanced CSS3 properties, and modern CSS frameworks like Bootstrap 5 or Tailwind CSS. </p>
-    </div>
+          <h4>Which Features Did You Find Most Useful? ( Select All That Apply ) : </h4>
 
-    <h2 class="center">Syllabus Progression Roadmap</h2>
-    <ol>
-      <li><strong> Unit 1 — HTML5 Markup:</strong>Structuring semantic web documents, metadata, lists, tables, and form inputs.</li>
-      <li><strong>Unit 2 — CSS Fundamentals: </strong>Applying external style sheets, selectors, color rules, and understanding the Box Model (margins, borders, padding). </li>
-      <li><strong>Unit 3 — CSS3 & Responsive Design: </strong>Creating fluid layouts using Flexbox, CSS Grid, hover transitions, and media query breakpoints </li>
-      <li><strong> Unit 4 — Responsive Frameworks: </strong>Refactoring custom CSS layouts into framework container grids (Bootstrap 5 / Tailwind CSS). </li>
-    </ol>
-    <hr />
-    <div class="center">
-      <h2>12-Week Lab Practical Timeline</h2>
-      <table cellspacing="15" align="center">
-        <tr>
-          <th>Week No.</th>
-          <th>Topic / Syllabus<br />Module</th>
-          <th>Practical Student Focus</th>
-          <th>Lab Deliverable</th>
-        </tr>
-        <tr>
-          <td>Week 1-2</td>
-          <td>HTML5 Document Structure</td>
-          <td>Building HTML skeletons using semantic tags</td>
-          <td>Unstyled HTML Wireframes</td>
-        </tr>
-        <tr>
-          <td>Week 1-2</td>
-          <td>HTML5 Document Structure</td>
-          <td>Building HTML skeletons using semantic tags</td>
-          <td>Unstyled HTML Wireframes</td>
-        </tr>
-        <tr>
-          <td>Week 1-2</td>
-          <td>HTML5 Document Structure</td>
-          <td>Building HTML skeletons using semantic tags</td>
-          <td>Unstyled HTML Wireframes</td>
-        </tr>
-        <tr>
-          <td>Week 1-2</td>
-          <td>HTML5 Document Structure</td>
-          <td>Building HTML skeletons using semantic tags</td>
-          <td>Unstyled HTML Wireframes</td>
-        </tr>
-        <tr>
-          <td>Week 1-2</td>
-          <td>HTML5 Document Structure</td>
-          <td>Building HTML skeletons using semantic tags</td>
-          <td>Unstyled HTML Wireframes</td>
-        </tr>
-        <tr>
-          <td>Week 1-2</td>
-          <td>HTML5 Document Structure</td>
-          <td>Building HTML skeletons using semantic tags</td>
-          <td>Unstyled HTML Wireframes</td>
-        </tr>
-      </table>
-    </div>
-    <hr />
-    <div class="center">
-    <h2>User Feedback & Inquiry Form</h2>
-    <p>Please fill out the form below to submit your feedback or inquiries regarding the portal: </p>
-    <form>
-      <label for="fname">full Name: </label>
-      <input type="text" name="fname" id="fname"/><br />
-      <label for="email">Email Addres: </label>
-      <input type="text" name="email" id="email" /><br />
-      <label for="option">Inquiry Category:</label>
-      <select name="option" id="option">
-        <option value="" selected>General Feedback</option>
-      </select>
-      <h4>How would you rate this portal design?</h4>
-      <input type="radio" name="rate" />
-      <label for="">5 - Excellent</label><br />
-      <input type="radio" name="rate" />
-      <label for="">4 - Excellent</label><br />
-      <input type="radio" name="rate" />
-      <label for="">3 - Excellent</label><br />
-      <input type="radio" name="rate" />
-      <label for="">2 - Excellent</label><br />
-      <input type="radio" name="rate" />
-      <label for="">1 - Excellent</label><br />
-
-      <h4>Which features did you find most useful? (Select all that apply):</h4>
-
-      <input type="checkbox" />
-      <label for="">Catalogue Card Layout</label><br>
-      <input type="checkbox" />
-      <label for="">Technical Spec Tables</label><br>
-      <input type="checkbox" />
-      <label for="">Mobile Responsive Navigation  </label><br>
-      <input type="checkbox" />
-      <label for="">Feedback Contact Form</label><br><br>
-      <label for="">Your Detailed Feedback / Message:</label><br>
-      <textarea name="" id="" rows="4" cols=""></textarea><br>
-      <input type="submit" value="submit">
-      <input type="reset" value="reset">
-    </form>
-    </div>
-    <hr />
+          <input type="checkbox" id="ccl"/>
+          <label for="ccl">Catalogue Card Layout</label><br>
+          <input type="checkbox" id="tst"/>
+          <label for="tst">Technical Spec Tables</label><br>
+          <input type="checkbox" id="mrn"/>
+          <label for="mrn">Mobile Responsive Navigation  </label><br>
+          <input type="checkbox" id="fcf"/>
+          <label for="fcf">Feedback Contact Form</label><br><br>
+          <label for="">Your Detailed Feedback / Message :</label><br>
+          <textarea name="Feedbackbox" id="Feedbackbox" rows="4" cols=""></textarea><br>
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </form>
+      </div>
+    </main>
+    <!-- This is Footer Part Of My Website -->
     <footer class="center">
-      <p>© 2026 Movie Explorer Portal — B.Tech 1st Year Web Designing Lab Assignment</p>
+      <hr />
+      <p>&copy;2026 Movie Explorer Portal — B.Tech 1st Year Web Designing Lab Assignment</p>
       <p>Department of Computer Science & Engineering.</p>
     </footer>
   </body>

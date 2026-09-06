@@ -1,39 +1,49 @@
 body {
-  background-color: rgb(201, 229, 252);
+  font-family: sans-serif;
+  background-color: lightskyblue;
 }
-ul {
+.center {
+  text-align: center;
+}
+.links ul {
   display: flex;
   justify-content: center;
 }
-ul li {
+.links ul li {
   list-style: none;
   margin: 0 10px;
-}
-input[type="submit"], input[type="reset"] {
-  border: 1px solid black;
-  border-radius: 8px;
-  background-color: rgb(144, 203, 251);
 }
 .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .card {
-  /* height: 530px; */
-  /* width: 275px; */
-  border: 2px solid black;
-  border-radius: 10px;
-  height: 600px;
-  width: 300px;
-  margin: 5px;
+  text-align: center;
+  background-color: rgb(201, 229, 252);
+  border-radius: 20px;
+  height: 620px;
+  width: 310px;
+  margin-top: 20px;
   padding: 5px;
 }
-.card img {
-  padding-top: 10px;
-  height: 295px;
-  width: 200px;
+.card img{
+  margin-top: 10px;
 }
-.center {
-  text-align: center;
+img {
+  height: 300px;
+  width: 230px;
+}
+.details-boxs{
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+}
+.details-box{
+  background-color: rgb(201, 229, 252);
+  border-radius: 20px;
+  margin: 10px 0;
+  padding: 20px;
+  height: 1500px;
+  width: 70%;
 }
