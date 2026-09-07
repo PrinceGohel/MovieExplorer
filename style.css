@@ -16,7 +16,7 @@ body {
 .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .card {
   text-align: center;
@@ -24,26 +24,36 @@ body {
   border-radius: 20px;
   height: 620px;
   width: 310px;
-  margin-top: 20px;
+  margin: 20px 10px 0 10px;
   padding: 5px;
 }
-.card img{
+.card img {
   margin-top: 10px;
 }
 img {
   height: 300px;
   width: 230px;
 }
-.details-boxs{
+.details-boxs {
   display: flex;
   align-items: center;
-  flex-direction:column;
+  flex-direction: column;
 }
-.details-box{
+.details-box {
   background-color: rgb(201, 229, 252);
   border-radius: 20px;
   margin: 10px 0;
   padding: 20px;
   height: 1500px;
   width: 70%;
+}
+.review {
+  width: 45%;
+  background-color: lightskyblue;
+  border-radius: 20px;
+  padding: 10px;
+}
+.reviews {
+  display: flex;
+  justify-content: space-between;
 }
