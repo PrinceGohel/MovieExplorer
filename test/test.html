@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        h1{
+            border-right: 1px solid white;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: blink .9s infinite, write 2s steps(15);
+        }
+        .container{
+            display: inline-block;
+        }
+        .btn{
+            border: 2px solid rgb(0, 39, 64);
+            background-color: rgba(0, 0, 0, 0);
+            padding: 10px 15px;
+            text-decoration: none;
+            color: rgb(0, 39, 64);
+            border-radius: 5px;
+            transition: all .5s;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        .btn:hover{
+            background-color: rgb(0, 39, 64);
+            color: white;
+        }
+        @keyframes blink {
+            50%{
+                border: none;
+            }
+        }
+        @keyframes write {
+            from{
+                width: 0;
+            }
+            to{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text">hello wellcome.</h1>
+
+        <br><br>
+    </div>
+    <a href="#" class="btn">Click me</a>
+
+</body>
+</html>

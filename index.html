@@ -3,31 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/Animations.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
     <title>MovieExplorer - Home</title>
   </head>
   <body>
     <!-- This is Header / Nevigation Bar of My website  -->
     <header>
-      <nav class="links center">
         <h2><a href="index.html">🎥 Movie Explorer</a></h2>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="Catalogue.html">Catalogue</a></li>
-          <li><a href="Details.html">Details</a></li>
-          <li><a href="About.html">About Me</a></li>
-        </ul>
-      </nav>
+        <nav class="links center">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Pages/Catalogue.html">Catalogue</a></li>
+            <li><a href="Pages/Details.html">Details</a></li>
+            <li><a href="Pages/About.html">About Me</a></li>
+            </ul>
+        </nav>
     </header>
     <!-- This is Main section of My Website's Home Page -->
     <main>
         <section class="center">
             <h1>Welcome to Movie Explorer Portal</h1>
-            <p>Discover top-rated cinematic masterpieces, explore detailed cast profiles, and browse movies across various genres. Designed for B.Tech Web Designing Lab.</p>
-            <a href="./Catalogue.html">Explore full movies catalogue &#10132;</a>
+            <p>Discover top-rated cinematic masterpieces, explore detailed cast profiles, and browse movies across various genres. Designed for B.Tech Web Designing Lab.</p><br>
+            <a href="./Catalogue.html" class="link">Explore Full Movies Catalogue &#10132;</a>
         </section>
+        <br>
         <section>
-            <h2 class="center">Spotlight Featured Films</h2>
+            <h1 class="center">Spotlight Featured Films</h1>
             <div class="cards">
                 <article class="card">
                     <img src="./Media/Movie_1.jpeg" alt="image not loaded" class="img" />
@@ -71,8 +76,9 @@
                 </article>
             </div>
         </section>
+        <br><br>
         <section>
-            <table style="margin: 20px auto;" cellpadding="8">
+            <table border="1" style="margin: 20px auto;" cellpadding="8" cellspacing="0"> 
                 <tr>
                     <th>Metric</th>
                     <th>Value</th>
@@ -101,12 +107,14 @@
             </table>
             <div class="links">
                 <h3 class="center">Browse by Categories</h3>
+                <br>
                 <ul>
-                    <li><a href="Catalogue.html">Action</a></li>
-                    <li><a href="Catalogue.html">Sci-Fi</a></li>
-                    <li><a href="Catalogue.html">Comady</a></li>
-                    <li><a href="Catalogue.html">Romance</a></li>
+                    <li><a href="Catalogue.html" class="btn">Action</a></li>
+                    <li><a href="Catalogue.html" class="btn">Sci-Fi</a></li>
+                    <li><a href="Catalogue.html" class="btn">Comady</a></li>
+                    <li><a href="Catalogue.html" class="btn">Romance</a></li>
                 </ul>
+                <br>
             </div>
         </section>
     </main>
@@ -116,5 +124,8 @@
         <p>&copy;2026 Movie Explorer Portal — B.Tech 1st Year Web Designing Lab Assignment</p>
         <p>Department of Computer Science & Engineering.</p>
     </footer>
+    <div class="animation">
+        <h1 class="animate" align="center" style="display: inline;"><br></h1>
+    </div>
   </body>
 </html>
